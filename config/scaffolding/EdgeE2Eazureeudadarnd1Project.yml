@@ -7,3 +7,96 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: WmSalesforceProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
+services:
+- serviceName: project.edgee2eazureeudadarnd1.WmSalesforceProvider.com_softwareag_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount
+  packages:
+  - name: EdgeE2Eazureeudadarnd1Project
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.71
+configurationVariables:
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.reuseAddr
+  : "false"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.enableSNI
+  : "true"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cr.preemptiveAuthEnabled
+  : "false"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.poolable
+  : "true"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.sockBuffSize
+  : "8192"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.timeoutType
+  : fixed
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.startupBackoffSecs
+  : "10"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.pr.serverRedirectMax
+  : "5"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.pr.useChunking
+  : "false"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.poolIncrementSize
+  : "1"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.pr.httpContentCharSet
+  : ISO-8859-1
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.retryCount
+  : "3"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.enableCompression
+  : "false"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.rh.requestHeaderValues
+  : "text/xml,login"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.readTimeout
+  : "180000"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.idleTimeout
+  : "-1"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.socketStaleCheck
+  : "true"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.expireTimeout
+  : "1000"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.pr.userAgent
+  : Cloudstreams
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cr.username
+  : rima.barman.b2b4497cd227@agentforce.com
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.connectionEnabled
+  : "true"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.blockTimeout
+  : "1000"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.hostnameVerifier
+  : org.apache.http.conn.ssl.DefaultHostnameVerifier
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.minimumPoolSize
+  : "1"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.connectTimeout
+  : "180000"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.retryIfRequestSentOk
+  : "true"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.validateAfterInactivity
+  : "1000"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cr.authSchemeType
+  : none
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.rh.requestHeaderNames
+  : "Content-Type,SOAPAction"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cr.password
+  : "{AES}pPysC3WeBHgd/E62MzqqikoBOx+n9Ygj7SkNDcrZTVwoNuL8+AOHInWNwNe2VzSv"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.pr.allowCircularRedirects
+  : "true"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.pr.protocolVersion
+  : HTTP/1.1
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.keepAliveInterval
+  : "300000"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.providerUrl
+  : https://orgfarm-f511aefe02-dev-ed.develop.my.salesforce.com/services/Soap/u/53.0
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.tcpNoDelay
+  : "false"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.pr.followServerRedirects
+  : "true"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.socketLinger
+  : "-1"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.pr.useExpectCont
+  : "false"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.startupRetryCount
+  : "0"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.maximumPoolSize
+  : "10"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.sessionExpiry
+  : "14"
