@@ -23,6 +23,11 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: SIQACloudStreamsTests
+  gitServerName: SIQAGitHubTest
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
 services:
 - serviceName: project.edgee2eazureeudadarnd1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SIQADBOracleDBAccount
   packages:
@@ -137,10 +142,10 @@ configurationVariables:
   : "false"
   ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:SIQASFOAuthRestAccount.minimumPoolSize
   : "1"
-  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.retryCount
-  : "3"
   ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:SIQASFOAuthRestAccount.blockTimeout
   : "1000"
+  ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.retryCount
+  : "3"
   ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:SIQASFOAuthRestAccount.expireTimeout
   : "1000"
   ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cn.idleTimeout
@@ -173,10 +178,10 @@ configurationVariables:
   : ORACLE
   ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceRESTProvider..com_softwareag_cloudstreams_salesforce_rest_v60..connections:SIQASFOAuthRestAccount.startupBackoffSecs
   : "10"
-  ? artConnection.EdgeE2Eazureeudadarnd1Project.project.edgee2eazureeudadarnd1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SIQADBOracleDBAccount.connectionSettings.portNumber
-  : "1521"
   ? artConnection.EdgeE2Eazureeudadarnd1Project.project.edgee2eazureeudadarnd1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SIQADBOracleDBAccount.connectionSettings.user
   : SIQA_BVT01
+  ? artConnection.EdgeE2Eazureeudadarnd1Project.project.edgee2eazureeudadarnd1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SIQADBOracleDBAccount.connectionSettings.portNumber
+  : "1521"
   ? cloudstreamsconnection.project..edgee2eazureeudadarnd1..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:SIQASFBasicAuthAccount.cr.authSchemeType
   : none
   ? artConnection.EdgeE2Eazureeudadarnd1Project.project.edgee2eazureeudadarnd1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.SIQADBOracleDBAccount.connectionManagerSettings.startupBackoffSecs
