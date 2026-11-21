@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Values version="2.0">
-  <value name="enabled">yes</value>
+  <value name="enabled">no</value>
   <value name="system_package">no</value>
   <value name="version">1.0</value>
   <value name="name">EdgeE2Eazureeudadarnd1Project</value>
@@ -13,7 +13,6 @@
     <value name="WmSalesforceRESTProvider">10.7.0.0.198</value>
     <value name="WmJDBCAdapter">10.3.0.0.34</value>
     <value name="SIQAJDBCAdapterTests">1.0</value>
-    <value name="SIQACloudStreamsTests">1.0</value>
     <value name="DADA_GlobalVariable1">1.0</value>
     <value name="DADA_RefDataDocTypeTests">1.0</value>
     <value name="DADA_SSLJMS">1.0</value>
@@ -22,13 +21,13 @@
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">27</value>
+  <value name="build">28</value>
   <null name="description"/>
   <value name="created_date">21-11-2026 15:38:34 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-11-21T16:11:47.722870556Z</value>
+  <value name="lastUpdated">2026-11-21T16:24:42.400288001Z</value>
   <value name="wmProjectId">flef36bd27b338f9eed9e4b0</value>
   <value name="creator">Manoj Jannu</value>
 </Values>
